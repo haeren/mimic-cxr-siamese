@@ -23,14 +23,14 @@ No credentialed data is redistributed here.
 | analyze_radiologist_agreement.py | Agreement with the single-radiologist reference |
 | analyze_unmentioned_sensitivity.py | Unmentioned-vs-negative label sensitivity |
 | make_figure_auroc_gain.py | Onset-vs-resolution AUROC-gain figure |
-| list_transition_example.py | List example pairs per transition state |
+| list_transition_examples.py | List example pairs per transition state |
 | explain_change.py | Paired and change-pathway Grad-CAM |
-| train_encoder_policy.sweep.py | Soft-target sensitivity sweep (optional) |
+| train_encoder_policy_sweep.py | Soft-target sensitivity sweep (optional) |
 
 ## Citation
 If you use this code, please cite the accompanying paper:
 
-- (details to be added on publication)
+- Işık, Ş.; Eren, H.A. Symmetric Siamese Networks for Longitudinal Chest Radiograph Change Detection: A Leakage-Controlled Study on MIMIC-CXR. Tomography 2026, 12, 129. https://doi.org/10.3390/tomography12090129
 
 and the MIMIC-CXR / MIMIC-CXR-JPG data sources:
 
